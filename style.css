@@ -1,0 +1,22 @@
+.container {
+    margin: auto;
+    width: 70%;
+    padding: 5em;
+    background-color: rgb(211, 189, 216);
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    border: solid black;
+    /* border-radius: 90%; */
+}
+
+.button button {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+    border: 1px solid wheat;
+    color: black;
+    outline: none;
+    transition: .6s ease;
+    border-radius: 25px;
+}
