@@ -2,9 +2,7 @@ const randomMathElem = document.querySelector('.randomMath');
 const textElem = document.querySelector('.text');
 let randomNumber = Math.ceil((Math.random() * 100));
 
-
-
-
+let gameGuess = Game()
 
 function guessingGame() {
     if (randomMathElem.value > randomNumber) {
@@ -17,13 +15,5 @@ function guessingGame() {
             textElem.innerHTML = 'New game started! '
             randomNumber = Math.ceil((Math.random() * 100));
         }, 3000)
-    } //else {
-    // randomMathElem.value && randomNumber != ''
-    // }
-
-    //randomMathElem.value = ''
-    // setTimeout(function() {
-    //     textElem.innerHTML = ''
-    // }, 4000)
-
+    }
 }
